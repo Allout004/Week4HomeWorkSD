@@ -1,0 +1,104 @@
+:root {
+    --lightColor: rgba(141, 96, 0, 0.541);
+    --darkColor: rgb(61, 61, 61);
+    --correctColor: rgb(118, 255, 118);
+    --WrongColor: rgb(255, 58, 58);
+    --linnerGradient: linearGradient(50deg yellow);
+    --colorPurple: rgb(136, 0, 136);
+
+}
+
+body {
+    background-color: var(--lightColor);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+button {
+    background-color: var(--colorPurple);
+    margin: 5px;
+    border-radius: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.highscore-container {
+    border-bottom: 5px dashed var(--lightColor);
+    font-size: 45px;
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid;
+    font-size: 30px;
+}
+
+
+#question {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#start {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 0px;
+}
+
+#start > button {
+    width: 200px;
+    height: 100px;
+    font-size: 30px
+}
+
+#timer {
+    margin-top: 20px;
+    font-style: bolder;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-container {
+    display: none;
+}
+
+#hidden {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#final {
+    font-size: 35px;
+    display: none;
+}
+
+#textaera {
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+}
+#final>#scoreboard {
+    border-bottom: rgb(0, 0, 0) solid 5px;
+}
+#final>#submit {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
