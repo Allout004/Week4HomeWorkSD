@@ -1,4 +1,4 @@
-### Week 4 Homework Quiz
+# Week 4 Homework Quiz
 
 This is a quiz about what we have learned the past weeks and showing that we can use what we have learned.
 
@@ -8,6 +8,6 @@ I dont understand for loops and arrays and objects and how they interact with fo
 ## Link to quiz
 https://allout004.github.io/Week4HomeWorkSD/
 
-# Screenshot Of Homepage Of Quiz
+### Screenshot Of Homepage Of Quiz
 ![Quiz](https://user-images.githubusercontent.com/85974510/131241775-63cb3f6f-7175-48aa-a0d2-e7c1396c767f.jpg)
 
